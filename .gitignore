@@ -1,3 +1,4 @@
 # ignore ALL files in ANY directory named 
 logs/
 Android_RR8R105VJLX/
+target/
