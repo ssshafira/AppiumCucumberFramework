@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.runners.MyRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.048 s <<< FAILURE! - in com.qa.runners.MyRunnerTest
+Login scenarios.Login with invalid username  Time elapsed: 24.923 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]Provided credentials...> but was:<[o]Provided credentials...>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.qa.stepdef.LoginStepDef.loginShouldFailWithAnError(LoginStepDef.java:40)
+	at ✽.Login should fail with an error "oProvided credentials do not match any user in this service."(file:///D:/nds-workspace/AppiumCucumberFramework/src/test/resources/Login.feature:10)
+
